@@ -1,4 +1,4 @@
-// Edit this list with your real projects
+
 window.PROJECTS = [
   {
     title: "FanFirst • Anti-Scalping Ticketing MVP",
