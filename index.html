@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Best • Software Engineer</title>
+  <link rel="icon" href="assets/Me1.jpg" type="image/png">
+  <meta name="description" content="Portfolio of Best — software engineering student building fair, secure ticketing apps and more." />
+  <meta property="og:title" content="Best • Software Engineer" />
+  <meta property="og:description" content="Projects, skills, and contact." />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#">Best Abalaka<span class="dot">.</span></a>
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" aria-label="Toggle dark mode">🌓</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" tabindex="-1">
+      <div class="hero-photo animate-zoom">
+        <img src="assets/Me1.jpg" alt="Best's photo">
+      </div>
+      <h1>Hi, I'm <span class="accent">Best</span> — Software Engineering Student</h1>
+      <p class="lead">I made this little portfolio website to showcase projects i have worked on, things i have learnt while pursing my course and many more. I am changelling myself to improve on my skills, having hands-on experience in the tech industry and reach my goals as a future Software Engineer.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See Projects</a>
+        <a class="btn" href="assets/Best_CV.pdf" download>Download CV</a>
+      </div>
+      <ul class="quick">
+        <li>Based in the UK</li>
+        <li>Edinburgh Napier University student</li>
+        <li>Interested in AI, Web, and Algorithms</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section alt">
+    <h2 class="animate-slide">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card animate-fade">
+        <h3>Decade Themed Website</h3>
+        <p>A website based on various decades from 1970s to 2010s made by me and my group for our university final coursework</p>
+        <a href="https://bestabalaka25.github.io/throwbacktotesting/" target="_blank" class="btn1">View on GitHub</a>
+      </div>
+      
+      <div class="project-card animate-fade">
+        <h3>Battleship AI Game</h3>
+        <p>Python CLI Battleship game with smart AI, undo,score tracking and many more intresting feature than a regular Battelship game.</p>
+        <a href="https://github.com/bestabalaka25/battleshipgame" target="_blank" class="btn1">View on GitHub</a>
+      </div>
+
+      <div class="project-card animate-fade">
+        <h3>Portfolio Website</h3>
+        <p>This personal portfolio showcasing my projects and skills.</p>
+        <a href="https://github.com/yourusername/portfolio" target="_blank" class="btn1">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+    <section id="skills" class="section alt">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p>Tools and technologies I use.</p>
+      </div>
+      <div class="skills">
+        <div>
+          <h3>Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML/CSS</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Concepts</h3>
+          <ul>
+            <li>Data Structures & Algorithms</li>
+            <li>REST APIs</li>
+            <li>Authentication</li>
+            <li>Unit Testing</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>Docker (basics)</li>
+            <li>Sublime Text</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+      <div class="about">
+        <p>
+          A highly motivated second-year Software Engineering student at Edinburgh Napier University, passionate about developing innovative software solutions. Good foundation in programming languages such as Python, Java, and C++, combined with practical experience gained through coursework and personal projects. Seeking a placement opportunity to further develop technical skills, contribute to real-world projects, and gain industry experience in software development. Right now I’m working on
+          <strong>FanFirst</strong>, a fair ticketing platform that makes it hard for resellers
+          and easier for real fans to get seats.
+        </p>
+        <p>
+          When I’m not coding, I’m probably at a concert or learning about AI and web technologies or hanging out with family and friends.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Open to placements, internships, and collaboration.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:bestabalaka25@gmail.com">Email</a>
+        <a href="https://github.com/bestabalaka25" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/best-iko-ojo-abalaka-37143332b/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Best Abalaka</small>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
